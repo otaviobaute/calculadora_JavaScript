@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: auto;
+
+}
+.cabecalho{
+    width: 100%;
+    height: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.titulo{
+    height: 100%;
+    width: 100%;
+}
+h1 h3{
+    align-items: center;
+}
+.corpo{
+    width: 100%;
+    height: auto;
+    font-family: 'Courier New', Courier;
+}
+.calcula{
+    position: absolute;
+    text-align: center;
+    background-color: lightskyblue;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgb(221, 216, 216);
+}
+#resultado{
+    width: 146px;
+    height: 35px;
+    background-color: white;
+    margin: 5px;
+    text-align: right;
+    color: black;
+}
+/*estilização button só está aqui por conta
+ do botão '-' que não quis formatar com o class*/
+button{
+    background-color: whitesmoke;
+    color: black;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.botao{
+    background-color: whitesmoke;
+    color: black;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+/*button:hover{
+    background-color: rgb(221, 217, 217);
+}
+*/
+.botao:hover{
+    background-color: rgb(221, 217, 217);
+}
+#igual{
+    height: 72px;
+}
+#zero{
+    width: 72px;
+}
